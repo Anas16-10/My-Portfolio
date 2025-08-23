@@ -1,3 +1,5 @@
+"use client";
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const projects = [
@@ -17,18 +19,18 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="container py-12">
-      <h2 className="text-3xl font-bold mb-6">Projects</h2>
-      <div className="grid md:grid-cols-2 gap-6">
+    <section id="projects" className="container py-12 px-4 sm:px-6 md:px-0">
+      <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center md:text-left">Projects</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center md:justify-items-stretch">
         {projects.map((p) => (
-          <a key={p.title} href={p.link} target="_blank" rel="noreferrer">
-            <Card className="hover:shadow-lg transition">
+          <a key={p.title} href={p.link} target="_blank" rel="noreferrer" className="w-full md:w-auto">
+            <Card className="hover:shadow-lg transition p-4 w-full">
               <CardHeader>
-                <CardTitle>{p.title}</CardTitle>
+                <CardTitle className="text-lg sm:text-xl md:text-2xl">{p.title}</CardTitle>
               </CardHeader>
-              <CardContent className="text-sm text-muted-foreground space-y-2">
+              <CardContent className="text-sm sm:text-base text-muted-foreground space-y-2">
                 <p>{p.desc}</p>
-                <p className="text-xs">{p.stack}</p>
+                <p className="text-xs sm:text-sm">{p.stack}</p>
               </CardContent>
             </Card>
           </a>

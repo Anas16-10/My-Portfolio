@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,7 +12,16 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 backdrop-blur bg-background/60 border-b border-border">
       <nav className="container mx-auto flex h-16 items-center justify-between px-4 sm:px-6 md:px-0">
         {/* Logo / Name */}
-        <Link href="/" className="font-semibold text-lg gradient-text">
+        <Link href="/" className="flex items-center gap-2 font-semibold text-lg gradient-text">
+          {/* Avatar / Logo */}
+          <Image
+            src="/avatar.png"   // replace with your avatar PNG path
+            alt="Anas Ahmed"
+            width={30}          // circular logo size
+            height={30}
+            className="rounded-full object-cover"
+          />
+          {/* Name */}
           Anas Ahmed
         </Link>
 

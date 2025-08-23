@@ -19,12 +19,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="container py-12 px-4 sm:px-6 md:px-0">
+    <section id="projects" className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center md:text-left">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center md:justify-items-stretch">
         {projects.map((p) => (
           <a key={p.title} href={p.link} target="_blank" rel="noreferrer" className="w-full md:w-auto">
-            <Card className="hover:shadow-lg transition p-4 w-full">
+            <Card className="hover:shadow-lg transition w-full">
               <CardHeader>
                 <CardTitle className="text-lg sm:text-xl md:text-2xl">{p.title}</CardTitle>
               </CardHeader>
@@ -37,5 +37,5 @@ export default function Projects() {
         ))}
       </div>
     </section>
-  )
+  );
 }

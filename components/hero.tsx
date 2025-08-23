@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="container mx-auto px-4 py-12 md:py-24">
+    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         {/* Text Section */}
@@ -26,7 +26,7 @@ export default function Hero() {
             and continuously learn to turn challenges into innovative solutions.
           </p>
 
-          {/* Buttons */}
+          {/* Social Buttons */}
           <div className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4">
             <a href="https://github.com/Anas16-10" target="_blank" rel="noreferrer">
               <Button variant="outline" size="lg" className="w-full sm:w-auto gap-2">
@@ -57,13 +57,12 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="rounded-3xl border border-border p-4 md:p-6 bg-card shadow-xl w-full max-w-md mx-auto md:mx-0"
         >
-          <div className="aspect-[4/3] rounded-2xl overflow-hidden">
+          <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden">
             <Image
               src="/a4.jpg"
               alt="Anas Ahmed"
-              width={600}       // Will scale automatically
-              height={450}
-              className="w-full h-full object-cover rounded-2xl"
+              fill
+              className="object-cover rounded-2xl"
               priority
             />
           </div>

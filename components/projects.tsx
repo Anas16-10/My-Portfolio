@@ -7,13 +7,13 @@ const projects = [
     title: "FactFlow — AI-Powered Fact Checking System",
     desc: "Detect and verify fake news in text/images with OCR, multilingual input, and AI scoring.",
     stack: "Python, Flask, React.js, MongoDB, Hugging Face, Google Gemini API, Tesseract OCR, ML, NLP",
-    link: "https://github.com/Anas16-10"
+    link: "https://github.com/Anas16-10/factflow"
   },
   {
     title: "SAMS — Student Attendance Management System",
     desc: "Role-based web system for marking & reporting attendance with secure MySQL backend.",
     stack: "Java, JSP, Servlets, MySQL, HTML, CSS, JS, Apache Tomcat, JDBC",
-    link: "https://github.com/Anas16-10"
+    link: "https://github.com/Anas16-10/Student-Attendance-Management-System-SAMS-"
   }
 ];
 

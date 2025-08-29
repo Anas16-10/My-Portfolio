@@ -15,6 +15,12 @@ const projects = [
     desc: "Role-based web system for marking & reporting attendance with secure MySQL backend.",
     stack: "Java, JSP, Servlets, MySQL, HTML, CSS, JS, Apache Tomcat, JDBC",
     link: "https://github.com/Anas16-10/Student-Attendance-Management-System-SAMS-"
+  },
+  {
+    title: "Cartoonify Image — Photo to Cartoon App",
+    desc: "Desktop app to upload a photo, preview transformations, and save a cartoonified image.",
+    stack: "Python, OpenCV, Tkinter, EasyGUI",
+    link: "https://github.com/Anas16-10/Cartoonify-image"
   }
 ];
 

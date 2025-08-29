@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <>
       {(!mounted || showSplash) ? (
-        <SplashScreen onFinish={() => setShowSplash(false)} />
+        <SplashScreen durationMs={2800} onFinish={() => setShowSplash(false)} />
       ) : (
         <>
           <Navbar />

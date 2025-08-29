@@ -60,10 +60,35 @@ const config: Config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        fadeIn: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
+        slideUp: {
+          from: { opacity: "0", transform: "translateY(16px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+        slideDown: {
+          from: { opacity: "0", transform: "translateY(-16px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
+        },
+        slideIn: {
+          from: { opacity: "0", transform: "translateX(-16px)" },
+          to: { opacity: "1", transform: "translateX(0)" },
+        },
+        scaleIn: {
+          from: { opacity: "0", transform: "scale(0.96)" },
+          to: { opacity: "1", transform: "scale(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        fadeIn: "fadeIn 0.6s ease-out both",
+        slideUp: "slideUp 0.6s ease-out both",
+        slideDown: "slideDown 0.6s ease-out both",
+        slideIn: "slideIn 0.6s ease-out both",
+        scaleIn: "scaleIn 0.6s ease-out both",
       },
     },
   },

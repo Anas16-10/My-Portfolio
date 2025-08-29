@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+import Reveal from "@/components/reveal";
 import { Github, Linkedin, Instagram } from "lucide-react";
 import Image from "next/image";
 
@@ -52,22 +53,22 @@ export default function Hero() {
 
         {/* Image Section */}
         <motion.div
-  initial={{ opacity: 0, scale: 0.96 }}
-  animate={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.6, delay: 0.1 }}
-  className="rounded-3xl border border-border p-4 md:p-6 bg-card shadow-xl w-full max-w-md mx-auto md:mx-0"
->
-  <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden">
-    <Image
-      src="/a4.jpg"
-      alt="Anas Ahmed"
-      width={400} // max width for mobile
-      height={300} // corresponding height
-      className="w-full h-full object-cover rounded-2xl"
-      priority
-    />
-  </div>
-</motion.div>
+          initial={{ opacity: 0, scale: 0.96 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.1 }}
+          className="rounded-3xl border border-border p-4 md:p-6 bg-card shadow-xl w-full max-w-md mx-auto md:mx-0"
+        >
+          <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden">
+            <Image
+              src="/a4.jpg"
+              alt="Anas Ahmed"
+              width={400}
+              height={300}
+              className="w-full h-full object-cover rounded-2xl"
+              priority
+            />
+          </div>
+        </motion.div>
 
       </div>
     </section>

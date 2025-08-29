@@ -1,5 +1,7 @@
 "use client";
 
+import Reveal from "@/components/reveal";
+
 export default function Experience() {
   const roles = [
     { 
@@ -31,20 +33,24 @@ export default function Experience() {
 
   return (
     <section id="experience" className="container mx-auto px-4 sm:px-6 md:px-0 py-12">
-      <h2 className="text-3xl sm:text-4xl font-bold mb-6">Experience</h2>
+      <Reveal>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6">Experience</h2>
+      </Reveal>
       <div className="space-y-6">
-        {roles.map((r) => (
-          <div key={r.role} className="rounded-2xl border border-border p-6 bg-card">
-            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
-              <h3 className="text-lg sm:text-xl font-semibold">{r.role} — {r.org}</h3>
-              <div className="text-sm text-muted-foreground whitespace-nowrap">{r.time}</div>
+        {roles.map((r, idx) => (
+          <Reveal key={r.role} delay={idx * 0.05}>
+            <div className="rounded-2xl border border-border p-6 bg-card">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                <h3 className="text-lg sm:text-xl font-semibold">{r.role} — {r.org}</h3>
+                <div className="text-sm text-muted-foreground whitespace-nowrap">{r.time}</div>
+              </div>
+              <ul className="list-disc pl-6 mt-2 text-sm sm:text-base text-muted-foreground space-y-1">
+                {r.bullets.map((b, i) => (
+                  <li key={i}>{b}</li>
+                ))}
+              </ul>
             </div>
-            <ul className="list-disc pl-6 mt-2 text-sm sm:text-base text-muted-foreground space-y-1">
-              {r.bullets.map((b, i) => (
-                <li key={i}>{b}</li>
-              ))}
-            </ul>
-          </div>
+          </Reveal>
         ))}
       </div>
     </section>

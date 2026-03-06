@@ -8,9 +8,9 @@ import { Github, Linkedin, Instagram } from "lucide-react";
 import Image from "next/image";
 
 const slides = [
-  { src: "/a1.jpg", alt: "Anas Ahmed" },
-  { src: "/a2.jpg", alt: "Anas Ahmed" },
-  { src: "/a3.jpg", alt: "Anas Ahmed" },
+  { src: "/a1.jpeg", alt: "Anas Ahmed" },
+  { src: "/a2.jpeg", alt: "Anas Ahmed" },
+  { src: "/a3.jpeg", alt: "Anas Ahmed" },
 ];
 
 export default function Hero() {

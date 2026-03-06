@@ -28,15 +28,18 @@ export default function Experience() {
       org: "IEEE Computer Society",
       time: "July 2, 2025 — Dec 31, 2025",
       bullets: [
-        "Led chapter ops, event planning, online outreach campaigns."
+        "Led chapter ops, event planning, online outreach campaigns.",
+        "Coordinated with faculty advisors and IEEE region leads to align chapter goals with academic objectives.",
+        "Mentored junior members, facilitated technical workshops, and drove membership growth initiatives."
       ]
     },
     {
-      role: "Social Media Coordinator",
+      role: "Webmaster",
       org: "IEEE AESS Chapter",
       time: "April 12, 2025 — Dec 31, 2025",
       bullets: [
-        "Managed social presence, coordinated events, promoted programs."
+        "Managed and maintained the chapter's official website, ensuring up-to-date content and smooth functionality.",
+        "Coordinated events, promoted programs, and handled digital outreach across online platforms."
       ]
     },
   ];

@@ -11,6 +11,7 @@ const slides = [
   { src: "/a1.jpeg", alt: "Anas Ahmed" },
   { src: "/a2.jpeg", alt: "Anas Ahmed" },
   { src: "/a3.jpeg", alt: "Anas Ahmed" },
+  { src: "/a4.jpeg", alt: "Anas Ahmed" }
 ];
 
 export default function Hero() {

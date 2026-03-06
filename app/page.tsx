@@ -10,6 +10,7 @@ import Education from "@/components/education";
 import Contact from "@/components/contact";
 import SplashScreen from "@/components/splash-screen";
 import Hobbies from "@/components/hobbies";
+import Achievements from "@/components/achievements";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -29,11 +30,12 @@ export default function Home() {
           <Navbar />
           <main>
             <Hero />
+            <Education />
+            <Experience />
             <Projects />
             <Skills />
+            <Achievements />
             <Hobbies />
-            <Experience />
-            <Education />
             <Contact />
           </main>
           <Footer />

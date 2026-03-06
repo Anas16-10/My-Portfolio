@@ -27,11 +27,12 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-6 text-sm">
+          <a href="#education" className="hover:opacity-80">Education</a>
+          <a href="#experience" className="hover:opacity-80">Experience</a>
           <a href="#projects" className="hover:opacity-80">Projects</a>
           <a href="#skills" className="hover:opacity-80">Skills</a>
+          <a href="#achievements" className="hover:opacity-80">Achievements</a>
           <a href="#hobbies" className="hover:opacity-80">Hobbies</a>
-          <a href="#experience" className="hover:opacity-80">Experience</a>
-          <a href="#education" className="hover:opacity-80">Education</a>
           <a href="#contact" className="hover:opacity-80">Contact</a>
         </div>
 
@@ -48,11 +49,12 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-background border-t border-border w-full px-4 py-4 flex flex-col gap-3 text-sm">
+          <a href="#education" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Education</a>
+          <a href="#experience" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Experience</a>
           <a href="#projects" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Projects</a>
           <a href="#skills" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Skills</a>
+          <a href="#achievements" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Achievements</a>
           <a href="#hobbies" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Hobbies</a>
-          <a href="#experience" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Experience</a>
-          <a href="#education" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Education</a>
           <a href="#contact" className="hover:opacity-80" onClick={() => setMobileMenuOpen(false)}>Contact</a>
         </div>
       )}

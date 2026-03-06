@@ -9,6 +9,7 @@ import Experience from "@/components/experience";
 import Education from "@/components/education";
 import Contact from "@/components/contact";
 import SplashScreen from "@/components/splash-screen";
+import Hobbies from "@/components/hobbies";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
             <Hero />
             <Projects />
             <Skills />
+            <Hobbies />
             <Experience />
             <Education />
             <Contact />

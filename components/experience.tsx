@@ -4,27 +4,37 @@ import Reveal from "@/components/reveal";
 
 export default function Experience() {
   const roles = [
-    { 
-      role: "AI & ML Trainee", 
-      org: "Samsung Innovation Campus", 
-      time: "Aug 21, 2025 — Ongoing", 
+    {
+      role: "Data Analyst Intern",
+      org: "GIT Institute",
+      time: "Jan 2026 — Present",
+      bullets: [
+        "Performing data cleaning, preprocessing, and analysis on structured datasets using Python and Excel.",
+        "Writing SQL queries to extract, transform, and analyze data for reporting purposes.",
+        "Developing interactive dashboards and visual reports using Power BI and Tableau to support data-driven decision-making."
+      ]
+    },
+    {
+      role: "AI & ML Trainee",
+      org: "Samsung Innovation Campus",
+      time: "Aug 21, 2025 — Ongoing",
       bullets: [
         "Learning Python, probability, statistics, linear algebra.",
         "Hands-on with supervised & unsupervised learning and intro to deep learning."
       ]
     },
-    { 
-      role: "Founding Vice Chair", 
-      org: "IEEE Computer Society", 
-      time: "July 2, 2025 — Ongoing", 
+    {
+      role: "Founding Vice Chair",
+      org: "IEEE Computer Society",
+      time: "July 2, 2025 — Dec 31, 2025",
       bullets: [
         "Led chapter ops, event planning, online outreach campaigns."
       ]
     },
-    { 
-      role: "Social Media Coordinator", 
-      org: "IEEE AESS Chapter", 
-      time: "April 12, 2025 — Ongoing", 
+    {
+      role: "Social Media Coordinator",
+      org: "IEEE AESS Chapter",
+      time: "April 12, 2025 — Dec 31, 2025",
       bullets: [
         "Managed social presence, coordinated events, promoted programs."
       ]

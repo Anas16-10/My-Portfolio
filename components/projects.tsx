@@ -5,6 +5,12 @@ import Reveal from "@/components/reveal";
 
 const projects = [
   {
+    title: "Fitness AI App — AI-Powered Fitness & Nutrition Tracker",
+    desc: "Full-stack fitness app with AI workout generation, calorie tracking, macro management, progress charts, and secure authentication. Features real-time nutrition logging and personalized AI recommendations.",
+    stack: "Next.js, TypeScript, Supabase, Google Gemini API, Tailwind CSS, Recharts",
+    link: "https://github.com/Anas16-10/fitness-ai-app"
+  },
+  {
     title: "FactFlow — AI-Powered Fact Checking System",
     desc: "Detect and verify fake news in text/images with OCR, multilingual input, and AI scoring.",
     stack: "Python, Flask, React.js, MongoDB, Hugging Face, Google Gemini API, Tesseract OCR, ML, NLP",

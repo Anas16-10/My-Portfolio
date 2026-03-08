@@ -5,6 +5,12 @@ import Reveal from "@/components/reveal";
 
 const projects = [
   {
+    title: "AI Resume Analyzer — AI-Powered ATS Insights & Optimization",
+    desc: "Professional platform designed to help job seekers optimize resumes for ATS. Features instant AI scoring, skill gap identification, actionable improvement suggestions, and reliable PDF/DOCX parsing with a premium SaaS interface.",
+    stack: "Next.js 15, TypeScript, Google Gemini 3.1 API, Tailwind CSS, shadcn/ui, Mammoth.js",
+    link: "https://ai-resume-analyzer-gray-three.vercel.app/"
+  },
+  {
     title: "Fitness AI App — AI-Powered Fitness & Nutrition Tracker",
     desc: "Full-stack fitness app with AI workout generation, calorie tracking, macro management, progress charts, and secure authentication. Features real-time nutrition logging and personalized AI recommendations.",
     stack: "Next.js, TypeScript, Supabase, Google Gemini API, Tailwind CSS, Recharts",

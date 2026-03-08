@@ -19,8 +19,9 @@ export default function Experience() {
       org: "Samsung Innovation Campus",
       time: "Aug 21, 2025 — Ongoing",
       bullets: [
-        "Learning Python, probability, statistics, linear algebra.",
-        "Hands-on with supervised & unsupervised learning and intro to deep learning."
+        "Mastering fundamental concepts in Artificial Intelligence and Machine Learning, including advanced Python programming, probability, statistics, and linear algebra.",
+        "Gaining extensive hands-on experience in developing supervised and unsupervised learning models, with an introduction to deep learning frameworks and neural networks.",
+        "Collaborating on real-world datasets to implement regression, classification, and clustering algorithms as part of the specialized Samsung Innovation Campus curriculum."
       ]
     },
     {

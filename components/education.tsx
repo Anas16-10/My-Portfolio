@@ -4,7 +4,7 @@ import Reveal from "@/components/reveal";
 
 export default function Education() {
   const items = [
-    { school: "KLE Institute of Technology — B.E CSE", place: "Hubli, Karnataka", time: "2022 – Present", detail: "GPA: 9.2/10.0" },
+    { school: "KLE Institute of Technology — B.E CSE", place: "Hubli, Karnataka", time: "2022 – 2026", detail: "GPA: 9.2/10.0" },
     { school: "KLE Prerana PU Science College — Class 12", place: "Hubli, Karnataka", time: "2022", detail: "90.17%" },
     { school: "St Antony’s Public School — Class 10", place: "Hubli, Karnataka", time: "2020", detail: "86.4%" }
   ];

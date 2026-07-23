@@ -30,17 +30,18 @@ export default function Achievements() {
             color: "text-slate-400", // Silver
         },
         {
-            title: "3rd Place in 3rd Academic Year (CS Dept)",
-            desc: "Secured third place in academic performance within the Computer Science Department for the 3rd year.",
-            icon: Medal,
-            color: "text-amber-600", // Bronze
-        },
-        {
             title: "3rd Place in 2nd Academic Year (CS Dept)",
             desc: "Secured third place in academic performance within the Computer Science Department for the 2nd year.",
             icon: Medal,
             color: "text-amber-600", // Bronze
         },
+        {
+            title: "3rd Place in 3rd Academic Year (CS Dept)",
+            desc: "Secured third place in academic performance within the Computer Science Department for the 3rd year.",
+            icon: Medal,
+            color: "text-amber-600", // Bronze
+        }
+        ,
     ];
 
     return (

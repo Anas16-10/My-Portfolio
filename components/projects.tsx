@@ -5,6 +5,12 @@ import Reveal from "@/components/reveal";
 
 const projects = [
   {
+    title: "Lumi — AI Mental Health Companion",
+    desc: "Full-stack AI mental health companion built for empathetic support and self-awareness. Features DistilBERT emotion classification, Groq LLaMA-powered conversations, mood tracking dashboards, secure auth, persistent chat history, and automated crisis alert workflows for high-risk situations.",
+    stack: "React, FastAPI, PostgreSQL, Supabase, DistilBERT, Groq LLaMA 3.1, Recharts, Tailwind CSS",
+    link: "https://github.com/Anas16-10/Lumi"
+  },
+  {
     title: "AI Resume Analyzer — AI-Powered ATS Insights & Optimization",
     desc: "Professional platform designed to help job seekers optimize resumes for ATS. Features instant AI scoring, skill gap identification, actionable improvement suggestions, and reliable PDF/DOCX parsing with a premium SaaS interface.",
     stack: "Next.js, TypeScript, Google Gemini 3.1 API, Tailwind CSS, shadcn/ui, Mammoth.js",

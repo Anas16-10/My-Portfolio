@@ -1,39 +1,45 @@
 "use client";
 
 import Reveal from "@/components/reveal";
-import { Trophy, Award, Medal } from "lucide-react";
+import { Medal } from "lucide-react";
 
 export default function Achievements() {
     const achievements = [
         {
             title: "1st Place in 4th Semester (Entire College)",
             desc: "Achieved the highest academic standing across the entire college during the 4th semester.",
-            icon: Trophy,
-            color: "text-yellow-500",
+            icon: Medal,
+            color: "text-yellow-500", // Gold
         },
         {
             title: "1st Place in Quiz Quest",
             desc: "Secured first place in the Quiz Quest competition conducted by IEEE MTTS SBC.",
-            icon: Award,
-            color: "text-blue-500",
+            icon: Medal,
+            color: "text-yellow-500", // Gold
+        },
+        {
+            title: "1st Place in Automata (Insignia)",
+            desc: "Won first place in Automata at Insignia, outperforming competing teams in a high-pressure technical challenge focused on logic, problem-solving, and rapid execution.",
+            icon: Medal,
+            color: "text-yellow-500", // Gold
         },
         {
             title: "2nd Place in Hack and Hunt (Insignia)",
             desc: "Secured second place in the Hack and Hunt competition conducted by SDM College; awarded ₹2000.",
             icon: Medal,
-            color: "text-slate-400", // Silver/2nd place color
+            color: "text-slate-400", // Silver
         },
         {
             title: "3rd Place in 3rd Academic Year (CS Dept)",
             desc: "Secured third place in academic performance within the Computer Science Department for the 3rd year.",
             icon: Medal,
-            color: "text-amber-600", // Bronze/3rd place color
+            color: "text-amber-600", // Bronze
         },
         {
             title: "3rd Place in 2nd Academic Year (CS Dept)",
             desc: "Secured third place in academic performance within the Computer Science Department for the 2nd year.",
             icon: Medal,
-            color: "text-amber-600",
+            color: "text-amber-600", // Bronze
         },
     ];
 

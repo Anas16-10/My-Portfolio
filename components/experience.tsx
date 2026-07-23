@@ -6,7 +6,7 @@ export default function Experience() {
   const roles = [{
     role: "AI & ML Trainee",
     org: "Samsung Innovation Campus",
-    time: "Aug 21, 2025 — Ongoing",
+    time: "Aug 2025 — May 2026",
     bullets: [
       "Mastering fundamental concepts in Artificial Intelligence and Machine Learning, including advanced Python programming, probability, statistics, and linear algebra.",
       "Gaining extensive hands-on experience in developing supervised and unsupervised learning models, with an introduction to deep learning frameworks and neural networks.",
@@ -16,7 +16,7 @@ export default function Experience() {
   {
     role: "Data Analyst Intern",
     org: "GIT Institute",
-    time: "Jan 2026 — Present",
+    time: "Mar 2025 — Aug 2025",
     bullets: [
       "Performing data cleaning, preprocessing, and analysis on structured datasets using Python and Excel.",
       "Writing SQL queries to extract, transform, and analyze data for reporting purposes.",
@@ -27,7 +27,7 @@ export default function Experience() {
   {
     role: "Founding Vice Chair",
     org: "IEEE Computer Society",
-    time: "July 2, 2025 — Dec 31, 2025",
+    time: "Jul 2025 — Dec 2025",
     bullets: [
       "Led chapter ops, event planning, online outreach campaigns.",
       "Coordinated with faculty advisors and IEEE region leads to align chapter goals with academic objectives.",
@@ -37,7 +37,7 @@ export default function Experience() {
   {
     role: "Webmaster",
     org: "IEEE AESS Chapter",
-    time: "April 12, 2025 — Dec 31, 2025",
+    time: "Apr 2025 — Dec 2025",
     bullets: [
       "Managed and maintained the chapter's official website, ensuring up-to-date content and smooth functionality.",
       "Coordinated events, promoted programs, and handled digital outreach across online platforms."
